@@ -5,15 +5,30 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Ten's Weather API</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		
-
+		<header>
+			<h1>
+				Welcome to Tenzin's Weather API Site!
+			</h1>
+			<h4>
+				Get your Local Weather in Freesdom Units by entering <br>your City and Country Name Below!🌡
+			</h4>
+		</header>
+		<main>
+			<input type="text" name="location" id="city" placeholder="CITY">
+			<input type="text" name="location" id="country" placeholder="COUNTRY">
+			<button>Submit</button>
+			<h2 id="placeToSee"></h2>
+		</main>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

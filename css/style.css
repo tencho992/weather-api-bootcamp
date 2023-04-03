@@ -5,12 +5,21 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
+header{
+  text-align: center;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /******************************************
