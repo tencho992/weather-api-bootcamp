@@ -9,6 +9,8 @@
 }
 html{
   background: url('../img/bgg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /******************************************
 /* LAYOUT
