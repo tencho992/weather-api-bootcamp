@@ -7,7 +7,7 @@ function getTemp(){
   .then(data => {
     console.log(data)
     let convert = Math.floor((data.main.temp - 273.15) * 1.8 + 32)
-    document.querySelector('#placeToSee').innerText = `${convert}`
+    document.querySelector('#placeToSee').innerText = `${convert}º`
   })
   .catch(err => {
       console.log(`error ${err}`)
